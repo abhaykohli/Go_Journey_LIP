@@ -1,0 +1,19 @@
+Stop Copy-Pasting your Code. Use Go Generics. 🚀
+
+Body: For the longest time, Go developers had a dilemma. If you wanted a Linked List for int and a Linked List for string, you had two choices:
+
+Copy-paste the struct (Violating DRY - Don't Repeat Yourself).
+
+Use interface{} (Violating Type Safety).
+
+Go 1.18 changed everything with Generics.
+
+For Day 3 of my #GoLearningJourney, I broke down how to create reusable, type-safe code using Type Parameters.
+
+📘 Inside the attached guide: 🔹 The Syntax: How to read [T any] (it's just a placeholder!). 🔹 The "Comparable" Rule: Why you can't just == generic values without asking permission. 🔹 The Stringer Pattern: How to write a function that accepts any struct, as long as it has a .String() method. 🔹 Generic Structs: Creating a Linked List that works for Strings, Ints, or Users.
+
+💡 Quick Fact: Go uses "Monomorphization" for Generics. This means the compiler generates a specific version of your function for every concrete type you use (one for int, one for string). The result? Zero runtime performance penalty. 🚀
+
+Check out the slides below! 👇
+
+#Golang #Generics #SoftwareEngineering #CleanCode #DevOps #Programming
