@@ -1,0 +1,16 @@
+Part 2: LinkedIn Post
+Headline: Forget Classes. Master Go Structs. 🏗️
+
+Body: If you are coming from Java or Python, you might be looking for class, extends, or super. Go doesn't have them.
+
+Instead, Go gives you Structs. They are simple, lightweight, and surprisingly powerful.
+
+For Day 5 of my #GoLearningJourney, I’m creating the ultimate guide to Data Modeling in Go.
+
+Inside the attached guide: 🔹 The Basics: Defining and Initializing data. 🔹 The Pointer Shortcut: Why (*p).X is ugly and p.X is beautiful. 🔹 Composition: How to embed one struct into another (Go's answer to inheritance). 🔹 Tags: How to control your JSON output with simple backticks.
+
+The Philosophy: Go prefers Composition over Inheritance. Instead of building deep, complex family trees of classes, you build small, simple Lego blocks (Structs) and snap them together.
+
+Check out the full breakdown below! 👇
+
+#Golang #SoftwareArchitecture #Coding #BackendDevelopment #DevOps #DataModeling
